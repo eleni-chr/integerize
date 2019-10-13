@@ -1,2 +1,2 @@
 # integerize
-The function takes as its input a matrix A of integers of type double, and returns the name of the “smallest” signed integer class to which A can be converted without loss of information.
+The function takes as its input a matrix A of integers of type double, and returns the name of the “smallest” signed integer class to which A can be converted without loss of information. If no such class exists, the text 'NONE' is returned. For example, if the smallest element of A is -100 and the largest is +100, then the function would return 'int8'. As another example, if there is an element of A equal to -1e20, then the function would return 'NONE'.
